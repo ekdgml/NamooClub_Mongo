@@ -1,0 +1,19 @@
+{
+	"users" : [
+		{
+			"_id" : "ekdgml@naver.com",
+			"name"    : "박상희",
+			"password" : "asdf"
+		},
+		{
+			"_id" : "wntjd@naver.com",
+			"name"    : "이주성",
+			"password" : "1234"
+		},
+		{
+			"_id" : "hong@naver.com",
+			"name"    : "홍길동",
+			"password" : "abcd"
+		}
+	] 
+}

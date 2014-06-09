@@ -1,0 +1,97 @@
+{
+	"users" : [
+		{
+			"_id" : "ekdgml",
+			"name"    : "박상희",
+			"password" : "asdf"
+		},
+		{
+			"_id" : "wntjd",
+			"name"    : "이주성",
+			"password" : "1234"
+		},
+		{
+			"_id" : "hong",
+			"name"    : "홍길동",
+			"password" : "abcd"
+		}
+	],
+	"communities" : [
+		{
+			"_id" : 1,
+			"name" : "com1",
+			"description" : "com1_des",
+			"openDate" : {"$date" : "2014-05-27T12:58:30.123Z"},
+			"categories" : [
+					{
+						"_id" : 1,
+						"comNo" : 1,
+						"categoryName" : "category1"
+					},
+					{
+						"_id" : 2,
+						"comNo" : 1,
+						"categoryName" : "category2"
+					}
+				],
+			"members" : [
+					{
+						"comNo" : 1,
+						"rolePerson" : {
+										"_id" : "wntjd",
+										"name"    : "이주성",
+										"password" : "1234"
+										}
+					}
+				],
+			"manager" : 
+					{
+						"comNo" : 1,
+						"rolePerson" : {
+											"_id" : "wntjd",
+											"name"    : "이주성",
+											"password" : "1234"
+										}
+					}
+				
+			},
+			{
+				"_id" : 2,
+				"name" : "com2",
+				"description" : "com2_des",
+				"openDate" : {"$date" : "2014-05-27T12:58:30.123Z"},
+				"categories" : [
+						{
+							"_id" : 1,
+							"comNo" : 2,
+							"categoryName" : "category1"
+						},
+						{
+							"_id" : 2,
+							"comNo" : 2,
+							"categoryName" : "category2"
+						}
+					],
+				"members" : [
+						{
+							"comNo" : 1,
+							"rolePerson" : {
+												"_id" : "ekdgml",
+												"name"    : "박상희",
+												"password" : "asdf"
+											}
+						}
+					],
+				"manager" : 
+						{
+							"comNo" : 1,
+							"rolePerson" : {
+												"_id" : "ekdgml",
+												"name"    : "박상희",
+												"password" : "asdf"
+											}
+						}
+					
+			}
+		]
+}
